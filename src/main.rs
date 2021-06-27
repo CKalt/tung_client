@@ -1,6 +1,5 @@
 use tungstenite::{connect, Message};
 use url::Url;
-use json::parse;
 
 fn main() {
     env_logger::init();
@@ -27,9 +26,6 @@ fn main() {
     loop {
         let msg = socket.read_message().expect("Error reading message");
         println!("Received: {}", msg);
-        if let Message::Text(text) = msg {
-            let _parsed = parse(&text);
-        }
     }
     // socket.close(None);
 }
