@@ -1,0 +1,10 @@
+Connected to the server
+Response HTTP code: 101 Switching Protocols
+Response contains the following headers:
+* date
+* connection
+* upgrade
+* sec-websocket-accept
+Received: {"event":"bts:subscription_succeeded","channel":"live_trades_btcusd","data":{}}
+Received: {"channel": "live_trades_btcusd", "data": {"amount": 0.01052, "amount_str": "0.01052000", "buy_order_id": 1376176157392896, "id": 185777377, "microtimestamp": "1624815481833000", "price": 32972.3, "price_str": "32972.30", "sell_order_id": 1376176153018371, "timestamp": "1624815481", "type": 0}, "event": "trade"}
+Received: {"channel": "live_trades_btcusd", "data": {"amount": 0.22747847, "amount_str": "0.22747847", "buy_order_id": 1376176183545859, "id": 185777384, "microtimestamp": "1624815488218000", "price": 32972.63, "price_str": "32972.63", "sell_order_id": 1376176148221964, "timestamp": "1624815488", "type": 0}, "event": "trade"}
