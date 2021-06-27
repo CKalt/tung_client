@@ -1,0 +1,16 @@
+{
+   "channel" : "live_trades_btcusd",
+   "data" : {
+      "amount" : 0.00289,
+      "amount_str" : "0.00289000",
+      "buy_order_id" : 1375952370372613,
+      "id" : 185709961,
+      "microtimestamp" : "1624760846331000",
+      "price" : 33121.43,
+      "price_str" : "33121.43",
+      "sell_order_id" : 1375952368840704,
+      "timestamp" : "1624760846",
+      "type" : 0
+   },
+   "event" : "trade"
+}
